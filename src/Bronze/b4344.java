@@ -2,7 +2,7 @@ package Bronze;
 
 import java.util.Scanner;
 
-public class b1157 {
+public class b4344 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int testCase = sc.nextInt();
