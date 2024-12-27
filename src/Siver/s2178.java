@@ -6,10 +6,10 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
-
+//BFS 예제 문제
 public class s2178 {
-    //상하좌우 탐색하는 방법
-    //상하좌우 하나씩만 움직이면서 볼 수 있게 세팅을 한다.
+    // 상하좌우 탐색하는 방법
+    // 상하좌우 하나씩만 움직이면서 볼 수 있게 세팅을 한다.
     // 그래서 for문으로 하나씩만 하면 탐색이 가능하다.
     static int[] dx = {0, 1, 0, -1};
     static int[] dy = {1, 0, -1, 0};
