@@ -24,10 +24,7 @@ public class b11050 {
                 D[i][j] = D[i-1][j-1] + D[i-1][j];
             }
         }
-
         System.out.println(D[N][K]);
-
-
     }
 
 }
