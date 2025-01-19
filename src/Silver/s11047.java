@@ -1,4 +1,4 @@
-package Siver;
+package Silver;
 
 import java.util.Scanner;
 //그리드 알고리즘 그리드 알고리즘은 항상 최선의 값을 도출해 내는 알고리즘이다.

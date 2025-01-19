@@ -1,10 +1,9 @@
-package Siver;
+package Silver;
 //비밀번호 발음하기
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 
 public class s4659 {
 
