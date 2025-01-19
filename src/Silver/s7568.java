@@ -1,6 +1,5 @@
-package Siver;
+package Silver;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class s7568 {

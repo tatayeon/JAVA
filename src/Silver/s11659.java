@@ -1,4 +1,4 @@
-package Siver;
+package Silver;
 
 //구간합 구하는 문제
 import java.io.BufferedReader;

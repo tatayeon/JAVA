@@ -1,4 +1,4 @@
-package Siver;
+package Silver;
 
 
 // 슬라이딩 윈도우 예제
