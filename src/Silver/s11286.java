@@ -10,7 +10,7 @@ public class s11286 {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
-        PriorityQueue<Integer> myQueue = new PriorityQueue<>((o1, o2) -> {
+        PriorityQueue<Integer> myQueue = new PriorityQueue<>((o1, o2) -> { //비교할 객체 2개 선언
             //이렇게 하면 우선순위를 커스텀 할 수 있다.
             int frist_abs = Math.abs(o1);
             int second_abs = Math.abs(o2);

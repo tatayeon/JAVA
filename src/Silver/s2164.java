@@ -6,21 +6,23 @@ import java.util.Scanner;
 
 public class s2164 {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
-        Queue<Integer> q = new LinkedList<>();
-        int N = sc.nextInt();
+        int n = sc.nextInt();
+        Queue<Integer> myQueue = new LinkedList<>();
 
-        for (int i = 1; i <= N; i++) {
-            q.add(i);
+        for(int i=1; i<=n; i++){
+            myQueue.add(i);
         }
 
-        while (q.size() > 1) {
-            q.poll();
-            int temp = q.poll();
-            q.add(temp);
+        while(myQueue.size() > 1){
+            myQueue.poll();
+            int temp = myQueue.poll();
+            myQueue.add(temp);
         }
 
-        System.out.println(q.poll());
+        System.out.println(myQueue.poll());
+
 
     }
 }
