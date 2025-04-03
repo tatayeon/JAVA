@@ -31,12 +31,13 @@ public class s11004 {
             int pivot = partition(A, S, E);
             if(pivot == K){
                 return;
-            }else if(K < pivot){
-                quickSort(A, S, pivot-1, K);
-            }else{
-                quickSort(A, pivot + 1, E,K);
+            } else if (pivot > K) {
+                quickSort(A, S, pivot - 1, K);
+            } else {
+                quickSort(A, pivot + 1, E, K);
             }
         }
+
     }
 
     private static int partition(int[] A, int S, int E) {
@@ -63,6 +64,7 @@ public class s11004 {
         A[j] = pivot;
         return j;
     }
+
 
     private static void swap(int[] A, int i, int j) {
         int temp = A[i];
