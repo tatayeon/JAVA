@@ -14,7 +14,6 @@ public class b11720_self {
         for (int i = 0; i < N; i++) {
             result += array[i] - '0';
         }
-
         System.out.println(result);
     }
 
