@@ -1,7 +1,6 @@
-package Glod;
+package Gold;
 
 import java.io.*;
-import java.util.Scanner;
 import java.util.Stack;
 
 public class g17298_Self {

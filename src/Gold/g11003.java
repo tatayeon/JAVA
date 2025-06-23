@@ -1,4 +1,4 @@
-package Glod;
+package Gold;
 
 import java.io.*;
 import java.util.Deque;

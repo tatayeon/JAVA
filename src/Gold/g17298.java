@@ -1,8 +1,7 @@
-package Glod;
+package Gold;
 
 
 import java.io.*;
-import java.util.Scanner;
 import java.util.Stack;
 
 // 오큰수 구하기 스택을 사용한 문제

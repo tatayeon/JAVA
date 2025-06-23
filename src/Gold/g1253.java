@@ -1,4 +1,4 @@
-package Glod;
+package Gold;
 
 import java.util.Arrays;
 import java.util.Scanner;

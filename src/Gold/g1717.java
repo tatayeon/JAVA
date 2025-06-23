@@ -1,4 +1,4 @@
-package Glod;
+package Gold;
 //유니온 파인드 강의 내용
 
 import java.util.Scanner;
