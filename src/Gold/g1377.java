@@ -1,11 +1,9 @@
-package Glod;
+package Gold;
 
-import javax.swing.plaf.synth.SynthLookAndFeel;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.Scanner;
 
 // 버블 소트 프로그램
 public class g1377 {

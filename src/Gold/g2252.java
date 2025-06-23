@@ -1,4 +1,4 @@
-package Glod;
+package Gold;
 
 //강의 내용 위상정렬 예제 문제
 
