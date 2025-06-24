@@ -13,6 +13,7 @@ public class g1753_self {
     public static boolean visited[];
     public static PriorityQueue<Edge> q = new PriorityQueue<>();
     public static ArrayList<Edge> list[];
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
