@@ -92,7 +92,7 @@ public class g1753 {
 
 // 간선 정보를 담는 클래스
 class Edge implements Comparable<Edge> {
-    int vertex; // 도착 정점
+    int vertex; // 도착 정점 선언
     int value;  // 해당 정점까지의 거리 또는 가중치
 
     Edge(int vertex, int value) {
