@@ -22,11 +22,11 @@ public class codingTest_2 {
                 maxLength = targetLength;
             }
         }
-
-        for (int num : numbers) {
-            String padded = String.format("%0" + maxLength + "d", num);
+        String[] result = new String[10];
+        for(int i = 0; i < result.length; i++) {
+            String padded = String.format("%0" + maxLength + "d", numbers[i]);
+            result[i] = padded;
             System.out.println(padded);
         }
-
     }
 }
