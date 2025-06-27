@@ -1,7 +1,7 @@
 package Bronze;
 
 import java.util.Scanner;
-
+// repeat 주어진 파라미터수 만큼 횟수 반복
 public class b2444 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
