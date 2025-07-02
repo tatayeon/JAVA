@@ -21,8 +21,5 @@ public class s11047 {
             }
         }
         System.out.println(count);
-
-
-
     }
 }
