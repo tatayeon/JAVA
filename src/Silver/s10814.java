@@ -25,7 +25,6 @@ public class s10814 {
         for(Person p:list){
             System.out.println(p.age+" "+p.name);
         }
-
 //        Map<Integer, String> map = new TreeMap<>();  오류 이런 해쉬맵이나 트리맵은 기존의 값이 중복이 되면 덮어 써버린다,..
 //        for (int i = 0; i < n; i++) {
 //            map.put(sc.nextInt(),sc.next());
@@ -34,7 +33,5 @@ public class s10814 {
 //        for (Integer key : map.keySet()) {
 //            System.out.println(key + " " + map.get(key));
 //        }
-
-
     }
 }
