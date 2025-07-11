@@ -34,7 +34,6 @@ public class b2979 {
                 continue;
             }
         }
-
         System.out.println(result);
     }
 }
