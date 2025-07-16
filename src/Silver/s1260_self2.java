@@ -36,11 +36,6 @@ public class s1260_self2 {
 
         visited =new boolean[N+1];
         BFS(Start);
-
-
-
-
-
     }
 
     private static void BFS(int Node) {
